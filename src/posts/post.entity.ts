@@ -20,6 +20,14 @@ export class Post extends Base {
   @Field()
   body: string;
 
+  @Column('text')
+  @Field()
+  body2: string;
+
+  @Column('text')
+  @Field()
+  bod888: string;
+
   @ManyToOne(
     () => User,
     user => user.posts,

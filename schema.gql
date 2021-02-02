@@ -52,6 +52,8 @@ type Post {
   createdAt: DateTime!
   updatedAt: DateTime!
   body: String!
+  body2: String!
+  bod888: String!
   user: User!
   comments: [Comment]!
   commentCount: Int!
